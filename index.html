@@ -1,0 +1,63 @@
+<html>
+    <head>
+   <link rel="stylesheet" href="stylesheet-css">
+</head>
+<title>Family photos</title>
+<body>
+    <h1>Family photos</h1>
+    <hr><hr>
+    <img id="family_img" src="happy fam.MOV">
+    <h3 id="one">Our Family Photos</h3>
+    <button type="button" onclick="family()">Next</button>
+    <hr>
+    <script>
+        var names=[
+            "2. my dad(Sunil)",
+            "3. my mom(tejaswini)",
+            "4.my sister(aditi)",
+            "5.my puppy(cody)",
+            "6.me(anagha)"];
+
+            var pictures=[
+                "sunil.jpg",
+                "tej.jpg",
+                "aditi.jpg",
+                "cute cody.jpg",
+                "anagh.jpg"];
+                var i=0;
+                function family(){
+                    document.getElementById("one").innerHTML=names[i];
+                    document.getElementById("family_img").innerHTML=pictures[i];
+                    if(i==4){
+                        i=0;
+                      }}
+                      </script>
+                      </body>
+</html>
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+`
+
+
+
+
+
+
+
+
+
+</body>
+</html>
